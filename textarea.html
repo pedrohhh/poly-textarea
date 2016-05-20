@@ -1,0 +1,47 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<script src="../js/jquery-1.11.1.min.js" charset="utf-8"></script>
+<script src="../js/bootstrap.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap-readable.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<dom-module id="textarea-element">
+    <template>
+        <style>
+        </style>
+        
+      
+    </template> 
+     
+    <script>
+        Polymer({
+            is: "textarea-element",
+            properties: {
+                id: String,
+                elementstyle:{
+                    type: String,
+                    value: "form-control"
+                },
+                placeholder:{
+                    type: String,
+                    value: " "                    
+                },
+                rows: String
+                
+            },
+                        
+            ready: function() {
+                var customInput = document.createElement("input");
+                customInput.setAttribute("id", this.id);
+                customInput.setAttribute("name", this.id);
+                customInput.setAttribute("class", this.elementstyle);
+                customInput.setAttribute("placeholder", this.placeholder);
+                customInput.setAttribute("rows", this.rows);
+
+                $('body').append(customInput);
+            }
+        });
+        
+
+    </script>
+</dom-module>

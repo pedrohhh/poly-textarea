@@ -1,0 +1,31 @@
+{
+  "name": "poly-textarea",
+  "description": "área de texto",
+  "main": "textarea.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+	"text",
+	"textarea"
+  ],
+  "authors": [
+    "Pedro"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/pedrohhh/poly-textarea",
+  "dependencies": {
+    "core-component-page": "Polymer/core-component-page#^0.5",
+    "core-elements": "Polymer/core-elements#^0.5.6",
+    "platform": "Polymer/platform#^0.4.2",
+    "polymer-ui-elements": "Polymer/polymer-ui-elements#^0.3.0",
+    "polymer": "^1.4.0"
+  }
+}

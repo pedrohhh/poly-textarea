@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	min-height: 100%;
+  	position: relative;
+}
+
+body {
+	background: none;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.42857143;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media (min-width: 768px){
+	.container {
+		width: auto;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+		width: 1170px;
+	}
+}
+
+fieldset{
+	margin-bottom: 22px;
+}
+
+.full {
+  background: url(/assets/sugarcane.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page{
+	min-height: 100vh;
+	
+	padding-left: 0px;
+	padding-right: 0px;
+	
+	background-color: rgba(255, 255, 255, 0.96);
+	border: 1px solid #dddddd;
+}
+
+.main{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 50px;
+}
+
+.footer {
+  bottom: 0;
+  padding: 30px 0px;
+  margin: 0px;
+  text-align: center;  
+  
+  background-color: rgba(255, 255, 255, 1.0);
+	border-top: 1px solid #dddddd;
+}
+
+.navbar {
+  margin: 50px 0px 30px 0px;
+  padding: 0px;
+  
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 0px solid transparent;
+}
+
+.logo {
+	margin: -20px 20px 0px 20px;
+	width: 120px;
+}
+
+.content, .left-content, .right-content{
+	background-color: rgba(255, 255, 255, 1.00);
+	text-align: justify;
+}
+
+.content h5, .left-content h5, .right-content h5{
+	font-weight: normal;
+}
+
+.left-content ul, .left-content ol, .right-content ul, .right-content ol{
+	margin-left: 20px;
+}
+
+.content .aling-ul, .content .aling-ol{
+	margin-left: 22px;
+}
+
+.img-centered{
+	display: block;
+	margin: 0 auto;
+}
+
+.section{
+	margin-bottom: 30px;
+}
+
+.editor {
+	height: 800px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	border-bottom-right-radius: 0px;
+	margin-top: 5px;
+}
+
+.input-xs {
+	height: 22px;
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.ind-content{
+	padding: 15px 0px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.input-group-btn-vertical {
+	position: relative;
+	white-space: nowrap;
+	width: 1%;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.input-group-btn-vertical > .btn {
+	display: block;
+	float: none;
+	width: 100%;
+	max-width: 100%;
+	padding: 8px;
+	margin-left: -1px;
+	position: relative;
+	border-radius: 0;
+}
+
+.input-group-btn-vertical > .btn:first-child {
+	border-top-right-radius: 4px;
+}
+
+.input-group-btn-vertical > .btn:last-child {
+	margin-top: -2px;
+	border-bottom-right-radius: 4px;
+}
+
+.input-group-btn-vertical i{
+	position: absolute;
+	top: 0;
+	left: 4px;
+}
+
+.tab-content>.tab-pane {
+	padding: 15px 15px;
+}
+
+.clear{
+	margin-top: 9px;
+}
+
+.form-inline-block{
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.input-text-lg{
+	font-size: 13px;
+}
+
+.ace_error-line{
+	position: absolute;
+	background: rgba(228, 53, 58, 0.75);
+	z-index:40;
+}
+
+.list-group-item{
+	width: 100%;
+}
+
+#toolContent{
+	padding: 20px;
+	background-color: #fff;
+	border-bottom: 	1px solid #ddd;
+	border-left: 	1px solid #ddd;
+	border-right: 	1px solid #ddd;
+}
+
+#toolContent ul, #toolContent ol{
+	margin-left: 20px;
+}
+
+#toolContent table{
+	border: 1px solid #dddddd;
+}
+
+#toolContent .btn-group{
+	margin-bottom: 20px; 
+}
+
+#indicator_tabs, #indicator_content, #indicator_editor, #efficiency_tabs, #efficiency_content {
+	padding: 0px 15px;
+}
+
+#indicator_content .form-group, #indicator_editor .form-group, #efficiency_content .form-group, #efficiency_content .form-group{
+	margin-bottom: 25px;
+}
+
+#assessment_tab > li > a{
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+
+#assessment_tab > .active > a{
+	color: #ffffff;
+	background-color: #4582ec;
+	border-color: #4582ec;
+}
+
+#graphic svg{
+    display: block;
+    margin: 0 auto;
+}
+
+#map svg{
+    display: block;
+    margin: 0 auto;
+}
+
+#map-canvas {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
